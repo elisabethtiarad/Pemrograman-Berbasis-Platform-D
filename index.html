@@ -13,14 +13,23 @@
   }
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  img {
+    display: -webkit-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
   }
 
   header {
     background-color: dimgray;
     padding: 20;
-    text-align:center;
-    font-size: medium;
+    text-align: center;
+    font-size: large;
     color: white;
   }
 
@@ -35,6 +44,7 @@
     flex: 1;
     background: #ccc;
     padding: 20px;
+
   }
 
   nav ul {
@@ -44,39 +54,53 @@
 
   nav {
     float: left;
-    width: 25%;
-    height: 900px;
+    width: 30%;
+    height: 1000px;
     background: #ccc;
-    padding: 20px;
+    padding: 30px;
+
   }
 
   article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 30px;
+
   }
+
+  table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse:collapse;
+    width: 100%;
+  }
+
+  td,th {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 8px;
+  }
+
 </style>
 
 <body>
   <header>
-    <img src = "elitiara.jpeg" alt="foto eli" style="width:128px;height:128px;">
-    <h2> Elisabeth Tiara Dewanti</h2>
-    <h3>205314143</h3>
-    <h3>Universitas Sanata Dharma</h3>
+    <h1>CURRICULUM VITAE</h1>
   </header>
   <section>
     <nav>
+      <img src="elitiara.jpeg" alt="foto eli" style="width:128px;height:128px; margin-left:auto;margin-right: auto;">
+      <dt><b>ELISABETH TIARA DEWANTI</b></dt>
+      <dt>205314143</dt>
+      <p>Tanggal lahir : 13 Maret 2002 <br>Alamat : Klaten <br>Agama : Khatolik <br>Gol.darah : B <br>Zodiak :Pisces</p>
       <h4>Pendidikan</h4>
       <ul>
         <li>
           <p>2020 - Sekarang | Universitas Sanata Dharma</p>
         </li>
-        <p style="color:grey;">S1 Informatika</p>
+        <p style="color:gray;">S1 Informatika</p>
         <li>
           <p>2017 - 2020 | SMA Negeri 1 Wedi</p>
         </li>
+        <p style="color:grey;">Jurusan IPA</p>
         <li>
           <p>2014 - 2017 | SMP Negeri 1 Wedi</p>
         </li>
@@ -87,77 +111,94 @@
           <p>2008 - 2011 | TK Taruna Bangsa</p>
         </li>
       </ul>
-
-
       <h4>Contact Details</h4>
       <p>Telp : 081326218471</p>
-      <p>Email : elisabethtiarad@gmail.com</p>
+      <p>Email: <a href="mailto:elisabethtiarad@gmail.com">elisabethtiarad@gmail.com</a></p>
       <dl>
-        <dt>Media Sosial</dt>
-        <dd>- IG : elitiarad</dd>
-        <dd>- Twitter: elitiara</dd>
-        <dd>- Line : elisbthtd</dd>
+        <p>Media Sosial <br><i>(click icon please)</i></p>
       </dl>
-      <ul>
-
-      </ul>
+      <table>
+        <tr > 
+          <th><a href="https://instagram.com/elitiarad?igshid=YmMyMTA2M2Y="><img
+            src="ig-logo-9.png" alt="coba" style="width: 42px;height:42px;"></a></th>
+            <th><a href="https://twitter.com/elitiarad13?t=fOA5Jdrt7FBhJELHnqQ9fA&s=08="><img
+              src="twitter-logo-1.png" alt="coba" style="width: 30px;height:30px; border-radius: 0%;"></a> </th>
+              <th><a href="https://line.me/ti/p/ctX2mgh9uK"><img src="Line-Logo-2016-present.png" alt="coba"
+                style="width: 50px;height:30px; border-radius: 0%;"></a> </th>
+        </tr> 
+        <tr>
+          <td>Instagram  elitiarad</td>
+          <td>Twitter elitiarad13</td>
+          <td>Line  elisbthtd</td>
+        </tr>
+      </table>
     </nav>
     <article>
-      <h1>Profil Singkat</h1>
-      <p>Mahasiswa Informatika semester 5 sanata dharma yang memiliki antusias tinggi dalam hal baru
+      <h1 style="background-color:rgb(255, 99, 71);">Profil Singkat</h1>
+      <p>Mahasiswa Informatika semester V Sanata dharma yang memiliki antusias tinggi dalam hal baru
         dan tantangan. Berpengalaman dan aktif dalam kepanitian dan organisasi kampus sehingga memiliki
         kemampuan kepemimpinan, bekerja sama dalam tim dan skill komunikasi.</p>
-      <h1>Pengalaman</h1>
+      <h1 style="background-color:rgb(255, 99, 71);">Pengalaman</h1>
       <ul>
         <li>
-          <h4>Badan Eksekutif 
-            Mahasiswa Fakultas Sains dan Teknologi</h4>
+          <dt><b>Sekretaris | Badan Eksekutif
+              Mahasiswa Fakultas Sains dan Teknologi 2021/2022</b> </dt>
+          <dd>- Membantu Gubernur dan Wakil Gubernur dalam beberapa hal</dd>
+          <dd>- Membuat notulensi setiap rapat </dd>
+          <dd>- Membuat surat untuk menunjang keberlangsungan BEM FST</dd>
+          <dd>- Menyimpan pengarsipan segala dokumen BEM FST hingga menjadi rapi dan teratur</dd>
         </li>
-        <dt>Sekretaris periode 2021-2022</dt>
-        <dd>Bertanggung jawab dalam mengatur jadwal rapat, notulensi, membuat surat atau proposal dan pengarsipan
-          dokumen BEM FST </dd>
-        
         <li>
-          <h4>Kepanitiaan PINISSI 2022</h4>
-        </li>
-        <dt>Penanggung Jawab PINISSI 2022</dt>
-        <dd>Menjadi jembatan penghubung antar BEM FST dan program kerja PINISSI dan bertanggung jawab serta mengawasi
-          keberlangsungan acara hingga selesai</dd>
+          <dt> <b>Penanggung Jawab | PINISSI 2022</b></dt>
+          <dd>- Menjadi jembatan penghubung antar BEM FST dan program kerja PINISSI </dd>
+          <dd>- Membuat tema dan mengatur kegiatan PINISSI 2022</dd>
+          <dd>- Bertanggung jawab dan mengawasi seluruh rangkaian PINISSI 2022</dd>
         <li>
-          <h4>Kepanitiaan Technofest 3.0</h4>
+          <dt> <b>Sekretaris | Technofest 3.0 2021</b></dt>
+          <dd>- Membuat proposal kegiatan Technocup 3.0</dd>
+          <dd>- Membuat surat untuk menunjang kelancaran kegiatan</dd>
+          <dd>- Membuat notulensi setiap rapat berlangsung</dd>
+          <dd>- Membantu bendahara dalam menyusun Laporan Pertanggungjawaban</dd>
         </li>
-        <dt>Sekretaris Technofest 2021</dt>
-        <dd>Bertanggung jawab dalam pembuatan proposal, surat menyurat, notulensi dan pengarsipan dokumen guna menunjang
-          keberlangsungan acara.</dd>
       </ul>
-      <h1> Table Analisa SWOT</h1>
-      <table>
+      <h1 style="background-color:rgb(255, 99, 71);">Keahlian</h1>
+      <ul>
+        <li>Mampu memanejemen waktu sehingga semua tugas kuliah bisa terselesaikan sebelum deadline</li>
+        <li>Mampu mendengarkan dan mencatat point penting setiap rapat berlangsung dalam organisasi sehingga
+          meminimalisir <i>misskomunikasi</i></li>
+        <li>Mampu memotivasi diri sendiri sehingga masih bertahan di Prodi ini </li>
+        <li>Mampu Bekerja sama dengan berbagai devisi organisasi BEM FST</li>
+
+      </ul>
+      <h1 style="background-color:rgb(255, 99, 71);">Hobi</h1>
+      <ul>
+        <li>Membaca novel</li>
+        <li>Memasak</li>
+      </ul>
+      <h1 style="background-color:rgb(255, 99, 71);">Table Analisis SWOT</h1>
+      <table >
         <tr>
           <th>Strengths</th>
           <th>Weaknesses</th>
           <th>Opportunities</th>
-          <th>Threats</th>         
+          <th>Threats</th>
         </tr>
         <tr>
-          <td>Bertanggung jawab </td>
-          <td>Suka mencoba hal baru</td>
-          <td>Pendengar yang baik</td>
-          <td>Peka</td>
-          <td>Sabar</td>
-        </tr>
-        <tr>
-          <td>Kadang ragu dalam memutuskan sesuatu
-          <td>Kurang percaya diri</td>
-          <td>overthinking</td>
-        </tr>
-        <tr>
+          <td>Bertanggung jawab atas apa yang telah dipilih </td>
+          <td>Kadang ragu dalam memutuskan sesuatu </td>
           <td>Memiliki teman dan sahabat yang pengertian</td>
-          <td>Mendapat pendidikan yang memadahi</td>
-          <td>Support keluarga yang mendukung kegiatan positif </td>
+          <td>Sering Mengantuk</td>
         </tr>
         <tr>
-          <td>Moody</td>
-          <td>Kadang kurang fokus jika terlalu banyak tugas</td>
+          <td>Suka mencoba hal baru</td>
+          <td>Kurang percaya diri</td>
+          <td>Mendapat pendidikan yang memadahi</td>
+          <td>Kurang bisa fokus dalam beberapa hal</td>
+        </tr>
+        <tr>
+          <td>Mempunyai tingkat kepekaan tinggi</td>
+          <td>overthinking</td>
+          <td>Support keluarga yang mendukung kegiatan positif </td>
           <td>Takut sendiri</td>
         </tr>
       </table>
