@@ -1,4 +1,19 @@
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: pink;
+}
+.accordion-item {
+  border: 1px solid rgb(221, 12, 82);
+}
+.accordion-button:not(.collapsed) {
+  background: pink;
+  color: deeppink;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+section {
+  padding-top: 5rem;
 }
